@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
-import config
+
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-TOKEN = config.DISCORD_TOKIN
+TOKEN = 'Enter you discord-bot tokin'
 
 # Intents are required for bots interacting with guild members, messages, etc.
 intents = discord.Intents.default()
